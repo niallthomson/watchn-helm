@@ -1,10 +1,20 @@
 apiVersion: v1
 entries:
+  carts:
+  - apiVersion: v2
+    created: "2020-09-23T00:37:45.88973836Z"
+    description: A Helm chart for Watchn Carts service
+    digest: b1fcd0ddc7e264a0e5fe38317df4d74da51dc7d3b4929526e76ec0420b57ad28
+    name: carts
+    type: application
+    urls:
+    - carts-0.0.1.tgz
+    version: 0.0.1
   catalog:
   - apiVersion: v2
-    created: "2020-09-23T00:27:58.935423941Z"
+    created: "2020-09-23T00:37:45.891040377Z"
     description: A Helm chart for Watchn catalog service
-    digest: 02d0b5dd19bb67c8425066dad0a6296cb7be956a5d4d9acb1e845755c68bd0ec
+    digest: 33dfce0a4fb352ccede9d9c86e2d8381dbe744f2d8aa5abce1ff5a146a9a86f0
     name: catalog
     type: application
     urls:
@@ -12,9 +22,9 @@ entries:
     version: 0.0.1
   orders:
   - apiVersion: v2
-    created: "2020-09-23T00:27:58.936144142Z"
+    created: "2020-09-23T00:37:45.891827186Z"
     description: A Helm chart for Watchn orders service
-    digest: 945e286cefc53c28fd8ef06322a944e597517d91440a13f3803ac7cfcda5d2f8
+    digest: e0e1f0f1bcf36149daa5ed0666ac3991ca36329044d20e55183dbead2db77637
     name: orders
     type: application
     urls:
@@ -22,12 +32,12 @@ entries:
     version: 0.0.1
   ui:
   - apiVersion: v2
-    created: "2020-09-23T00:27:58.936687943Z"
+    created: "2020-09-23T00:37:45.892442294Z"
     description: A Helm chart for Watchn UI service
-    digest: f1a6fe61b216d046b943700740f958756473a785623086c97469c8f04c16c6c9
+    digest: f2191c91ca66716c23dcc0a736f517b5f34fa848de86824c8c0cbb8bbb2f7386
     name: ui
     type: application
     urls:
     - ui-0.0.1.tgz
     version: 0.0.1
-generated: "2020-09-23T00:27:58.93465154Z"
+generated: "2020-09-23T00:37:45.888230442Z"
