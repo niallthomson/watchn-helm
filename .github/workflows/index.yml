@@ -1,0 +1,19 @@
+name: Deploy
+on:
+  push:
+    branches: [ master ]
+jobs:
+  deployment:
+    runs-on: 'ubuntu-latest'
+    steps:
+      - uses: actions/checkout@v1
+      - name: Deploy
+        uses: WyriHaximus/github-action-helm3@v2
+        with:
+          exec: helm repo index .
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          message: "[Auto] Update index"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
