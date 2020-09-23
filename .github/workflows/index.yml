@@ -1,4 +1,4 @@
-name: Deploy
+name: Reindex
 on:
   push:
     branches: [ master ]
